@@ -1,6 +1,6 @@
 # Intercom Clone - High-Fidelity Customer Support Platform
 
-![Intercom Clone](public\Home.png)
+![Intercom Clone](./public/screenshots/Home.png)
 
 A high-fidelity, feature-rich customer support platform inspired by Intercom. This application provides a modern, responsive interface for managing customer conversations with AI assistance.
 
@@ -130,7 +130,3 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - [shadcn/ui](https://ui.shadcn.com/) for the beautiful UI components
 - [Framer Motion](https://www.framer.com/motion/) for the smooth animations
 - [Lucide Icons](https://lucide.dev/) for the icon set
-```
-
-
-The README provides a comprehensive overview of your high-fidelity Intercom clone application, highlighting its features, technologies, and usage instructions.
