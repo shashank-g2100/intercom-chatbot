@@ -4,6 +4,8 @@
 
 A high-fidelity, feature-rich customer support platform inspired by Intercom. This application provides a modern, responsive interface for managing customer conversations with AI assistance.
 
+🔗 **Live Demo**: [Intercom Chatbot](https://intercom-chatbot.vercel.app/)
+
 ## ✨ Features
 
 - **Intuitive Inbox Management**: Easily manage and prioritize customer conversations
