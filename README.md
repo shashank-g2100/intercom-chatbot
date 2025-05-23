@@ -1,6 +1,6 @@
 # Intercom Clone - High-Fidelity Customer Support Platform
 
-![Intercom Clone](https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-iyuueDPJQRyja6BcPmNOl4qRWH6FJZ.png)
+![Intercom Clone](public\Home.png)
 
 A high-fidelity, feature-rich customer support platform inspired by Intercom. This application provides a modern, responsive interface for managing customer conversations with AI assistance.
 
@@ -33,6 +33,104 @@ A high-fidelity, feature-rich customer support platform inspired by Intercom. Th
 ### Installation
 
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/intercom-clone.git
-   cd intercom-clone
+```bash
+git clone https://github.com/yourusername/intercom-clone.git
+cd intercom-clone
+```
+
+2. Install dependencies:
+```bash
+npm install
+# or
+yarn install
+```
+
+
+3. Run the development server:
+```bash
+npm run dev
+# or
+yarn dev
+```
+
+4. Open [http://localhost:3000](http://localhost:3000) in your browser to see the application.
+
+
+## 📱 Usage
+
+### Desktop Interface
+
+The desktop interface is divided into three main panels:
+
+1. **Conversation List**: Browse and filter your customer conversations
+2. **Chat Interface**: Interact with customers in real-time
+3. **AI Copilot**: Get AI-powered assistance and suggestions
+
+
+### Mobile Interface
+
+On mobile devices, the interface adapts to show one panel at a time with smooth transitions between:
+
+- Conversation list
+- Active chat
+- AI copilot
+
+
+### Key Features
+
+- **Conversation Management**: Filter conversations by status (all, unread, priority, snoozed)
+- **Message Actions**: Star conversations, snooze, assign to team members
+- **AI Assistance**: Get suggested responses and helpful resources
+- **File Sharing**: Send images, documents, audio, and video files
+- **Emoji Support**: Add emojis to your messages with the built-in picker
+
+
+## 🧩 Project Structure
+
+```
+intercom-clone/
+├── app/                  # Next.js app directory
+│   ├── layout.tsx        # Root layout component
+│   ├── page.tsx          # Main page component
+│   └── globals.css       # Global styles
+├── components/           # React components
+│   ├── ai-copilot.tsx    # AI assistant panel
+│   ├── chat-interface.tsx # Chat interface component
+│   ├── conversation-list.tsx # Conversation list component
+│   ├── empty-state.tsx   # Empty state component
+│   ├── inbox.tsx         # Main inbox component
+│   ├── mobile-header.tsx # Mobile header component
+│   └── ui/               # UI components from shadcn
+├── hooks/                # Custom React hooks
+│   └── use-mobile.tsx    # Hook for responsive design
+├── types/                # TypeScript type definitions
+│   └── index.ts          # Type definitions for the app
+├── public/               # Static assets
+└── README.md             # Project documentation
+```
+
+## 🎨 Customization
+
+### Theming
+
+The application uses Tailwind CSS for styling. You can customize the theme by modifying the `tailwind.config.ts` file:
+
+- **Colors**: Update the color palette in the `theme.extend.colors` section
+- **Typography**: Modify font settings in the `theme.extend.typography` section
+- **Animations**: Adjust animation settings in the `theme.extend.keyframes` and `theme.extend.animation` sections
+
+
+## 📄 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## 🙏 Acknowledgements
+
+- [Intercom](https://www.intercom.com/) for inspiration
+- [shadcn/ui](https://ui.shadcn.com/) for the beautiful UI components
+- [Framer Motion](https://www.framer.com/motion/) for the smooth animations
+- [Lucide Icons](https://lucide.dev/) for the icon set
+```
+
+
+The README provides a comprehensive overview of your high-fidelity Intercom clone application, highlighting its features, technologies, and usage instructions.
